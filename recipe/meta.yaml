@@ -1,5 +1,5 @@
 {% set name = "pytest-order" %}
-{% set version = "0.9.4" %}
+{% set version = "0.9.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytest-order-{{ version }}.tar.gz
-  sha256: 46343d8be90707eaf801982c62ecdc3ccbf9b0b30b3d3ff558d3729fcd47f12c
+  sha256: 9c9e4f1b060414c642e88ad98ca60f1fd37937debd704bd8f4a2ef8e08b9cb6d
 
 build:
   number: 0

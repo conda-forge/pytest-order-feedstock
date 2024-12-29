@@ -146,4 +146,5 @@ Feedstock Maintainers
 =====================
 
 * [@hadim](https://github.com/hadim/)
+* [@mrbean-bremen](https://github.com/mrbean-bremen/)
 

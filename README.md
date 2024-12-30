@@ -1,7 +1,7 @@
 About pytest-order-feedstock
 ============================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-order-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tmpo8kaqk0h-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pytest-dev/pytest-order
 
@@ -17,8 +17,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11838&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pytest-order-feedstock?branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=None&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/tmpo8kaqk0h-feedstock?branchName=main">
       </a>
     </td>
   </tr>

@@ -19,11 +19,11 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - pytest >=5.0
+    - pytest >=6.2.4
     - setuptools
   run:
     - python >={{ python_min }}
-    - pytest >=5.0
+    - pytest >=6.2.4
 
 test:
   imports:

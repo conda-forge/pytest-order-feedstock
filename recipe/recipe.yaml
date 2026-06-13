@@ -1,6 +1,6 @@
 context:
   name: pytest-order
-  version: 1.3.0
+  version: 1.5.0
 
 package:
   name: ${{ name|lower }}
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 51608fec3d3ee9c0adaea94daa124a5c4c1d2bb99b00269f098f414307f23dde
+  sha256: 96acd7587b5a2855dcaa4a898288103d202894a61afd813adbc9b77aab04d90d
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
@@ -19,11 +19,11 @@ requirements:
   host:
     - pip
     - python ${{ python_min }}.*
-    - pytest >=5.0
+    - pytest >=6.2.4
     - setuptools
   run:
     - python >=${{ python_min }}
-    - pytest >=5.0
+    - pytest >=6.2.4
 
 tests:
   - python:
